@@ -1,0 +1,113 @@
+Q - What is class?
+    class is a template or a blue print of an object you'd want to create. Such as 
+
+Q - What is an object?
+    An object is an instance of the class which as properties, tasks performed etc.
+
+Q - what are the concpets of OOPS?
+    Abstraction - The way of hiding implemntation and only showing the necessary details
+    Encapsulation - Having different entities such as variables, methods etc in under a single umbrella such as a class or a method.
+
+    Inheritance - Inheriting the properties of the parent class into the child class
+
+    Polymorphism - Having different methods performing differt tasks but with same name
+
+
+Q - What are different types of inhertiance?
+    Single - Only a single class is inherited
+    Multiple - Multiple classes are inherited
+    Hybrid - A combination of different inheritance
+    Heirarichal - More than one child classes are created off of one class
+    Multi level - Child class becomes the parent class on inheritance
+
+Q - What are different types of polymorhphism?
+    Method overloading - Having multiple methods with the same name but with different params.
+    Method overriding - Rewriting the method of the parent class and calling super on it.
+
+
+Q - What is a real world example of a class?
+    So we are all Carbon based lifeforms so carbon can be considered a class and living organisms can be considered as objects?
+
+Q - Real world example of Abstraction?
+    you are able to attend the call but you don't know how the sim card works.
+
+Q - Real world example of Polymorphism?
+    So a phone has methods such as send message, which takes an argument, reciever and the message. 
+    There can be multiple methods depending on the arguments you pass such as, if you have multiple recievers set or you're sending a MMS.
+
+
+Q - Real life example of inhertiance?
+    A smart phone is a class and samsung inherits it. That's single level inhertiance.
+
+    Multi Level Inhertiance - There's a lineup of different phones which have features of the previous phones usually. Such as S5, S6 etc.
+
+    Heirarical Inheritance - From the Smart Phone class diffferent subclasses are defined such as, Samsung, Iphone etc.
+
+    Hybrid Inhertiance - Smart phone is subclassed by samsung and Iphone and samsung and Iphone are subcalssed by S5, Iphone 10
+
+
+Q - What is interface?
+    Interface is another way of getting abstraction in your programs. It gives a blueprint of what methods are required to implement.
+
+Q - What is the differnce between Interface and a Class?
+    Interface usually only has declaration and classes have definations of methods.
+
+Q - What is a constructor ?
+    A constructor is a special method for creating and initializing an object created within a class.
+
+
+Q - What is a inline functions?
+    Inline function is used by compilers to insert an entire function body in a single line.
+
+Q - What is dynamic or runtime Polymorhpism?
+    It's called method overriding 
+
+Q - Why OOP over Functional Programming?
+    OOP lets you keep the data related to the program and the methods which are to be performed over it in a single place. FP says fuck it and suggests that data and the methods are seperate entities and should be kept as such.
+
+Q - What is prototype in Javascript?
+    Prototype holds all the methods supporetd by an object, you can add methods to the object using prototype.
+
+
+============================================
+        ADVANCED QUESTIONS
+============================================
+
+Q - What are the differnet types of Paradigms used in Javscript?
+    JS is a multi-paradigm lagnuage, supporting OOP/Functional Programming.
+    JS supports OOP with protoypal inhertiance
+
+    JS has Closures, first class functions, lambdas in FP.
+
+
+Q - Explain Protoypal inhertiance?
+    When a method is called on an object, the compiler checks if the class of the object has the method or it's parent class does. If yes then the method is executed if not then you get a red line saying you're a stupid little bitch.
+
+    IF YOU WANT TO KNOW WHICH METHODS BELONG TO AN object call __PROTO__
+
+
+Q - Types in Javascript?
+    String, Boolean, object, function, null, undefined etc
+
+
+Q - Explain the number in Javascript?
+    Javascript internally only has 1 type when it comes to numbers, it's floating points, internally it's a 64 bit floating point. 
+
+Q - What is closure in javascript?
+    function inside a function. I swear to god fancy fucking names for shit you can't comprehend by reading the name of. While I have implemented shit like this a million times but I don't know the name? What am I dumb? NO! (Maybe)
+
+Q - What is hoisted in javascript?
+    It means variables can be used before assignments
+    x = 5;
+    console.log(5+1)
+    var x;
+
+Q - Variables without var in a method or class?
+    Variables without var are implied global, and are not variables in a function but are property of window object.
+
+Q - What is the difference between a constructor function and a normal function?
+    when creating an object of the class the NEW operator which makes the context (this) in the function the new instance thus letting it take two properties and returns this new instancec. 
+    Without the new operator the context would have been the external one (window if your code is in the global scope in llose mode, undefined in strict mode)
+
+Q - What is the difference between using the dot notation to get the data off of a object and using the brackets.
+    If using the dot notation, you need to use a string. If you are using brackets you can use any javascript expression that returns a value. 
